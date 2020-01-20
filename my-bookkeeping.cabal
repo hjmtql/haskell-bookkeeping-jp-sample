@@ -40,6 +40,7 @@ executable my-bookkeeping
   default-language:    Haskell2010
   default-extensions:
                        NoImplicitPrelude
+                     , OverloadedStrings
 
 test-suite my-bookkeeping-test
   type:                exitcode-stdio-1.0
